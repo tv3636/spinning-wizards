@@ -28,6 +28,7 @@ if len(sys.argv) > 1:
 		querystring['offset'] = str(int(querystring['offset']) + PAGE_SIZE)
 
 	print('Downloading turnarounds...')
+	os.mkdir('./output')
 
 	for token in tokens:
 		try:
