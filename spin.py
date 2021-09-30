@@ -50,3 +50,4 @@ if len(sys.argv) > 1:
 
 else:
 	print("Please provide your wallet address. Usage: python spin.py [WALLET_ADDRESS]")
+	
